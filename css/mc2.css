@@ -1,0 +1,94 @@
+
+
+
+.button {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1{
+  font-style:bold;
+  color:#104F55;
+  font-size:50px;
+  text-align:center;
+}
+
+h2{
+  text-align:center;
+  text-style:italic;
+  font-size:25px;
+  color:#01200F;
+}
+
+h3{
+  color:#32746D;
+  text-align:center;
+  font-size:20px;
+  text-style:bold;
+}
+
+p{
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right:50px;
+  line-height: 2;
+  height:100%;
+  line:2;
+}
+
+body{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-image: url("../../Desktop/images/desk.jpg"), url("../../Desktop/images/manwalking.jpg");
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1500px 900px;
+  background-color:#EEE5E9;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align:center;
+  /* margin:0; */
+
+}
+
+.myPhoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+/* Style tab links */
+.tablink {
+  background-color: #443730;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #91c499;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color:#322F20;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
